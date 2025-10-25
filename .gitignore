@@ -1,0 +1,8 @@
+media/
+.vscode
+env/
+
+
+#the ide 
+.vscode 
+__pycache__
