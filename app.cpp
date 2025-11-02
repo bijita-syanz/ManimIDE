@@ -167,7 +167,7 @@ int main(int argc, char *argv[]) {
     // Create UI elements
     QTextEdit *codeArea = new QTextEdit();
     QTextEdit *terminalArea = new QTextEdit();
-    terminalArea->setReadOnly(false);
+    terminalArea->setReadOnly(true);
 
     QPushButton *saveButton = new QPushButton("Save Script");
     QPushButton *runButton = new QPushButton("Run Manim");
